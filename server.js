@@ -2,9 +2,10 @@ const express = require("express");
 const routes = require("./api/productos")
 const carritos = require('./api/carrito');
 const fs = require('fs')
+require('dotenv').config({path: __dirname + '/.env'})
 
 const app = express();
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT;
 
 app.listen(PORT, () => console.log(`Servidor HTTP escuando en el puerto ${PORT}`));
 

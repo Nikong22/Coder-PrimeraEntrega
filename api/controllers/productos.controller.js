@@ -1,4 +1,4 @@
-const productos = require("../../productos");
+const productos = require("../../models/productos");
 const fs = require('fs')
 
 class Funciones {

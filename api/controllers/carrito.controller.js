@@ -1,4 +1,4 @@
-let carrito = require("../../carritos");
+let carrito = require("../../models/carritos");
 const fs = require('fs')
 
 class Funciones {
