@@ -1,6 +1,6 @@
 const express = require("express");
-const routes = require("./api/productos")
-const carritos = require('./api/carrito');
+const routes = require("./routes/productos")
+const carritos = require('./routes/carrito');
 const fs = require('fs')
 require('dotenv').config({path: __dirname + '/.env'})
 
